@@ -1,3 +1,11 @@
+/* Nomes e RMs:
+- Bruna Oliveira Gomes - RM553135
+- Enzo Gabriel Nicolosi Croquer - RM553213
+- Inácia dos Santos Silva - RM 553401
+- Rickson.Hirata - RM553921
+- Tony Khaled Osman - RM553050
+*/
+
 --------------------------------------------------------
 --  Arquivo criado - sábado-abril-25-2026   
 --------------------------------------------------------

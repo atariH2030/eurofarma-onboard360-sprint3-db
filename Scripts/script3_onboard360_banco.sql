@@ -1,3 +1,11 @@
+/* Nomes e RMs:
+- Bruna Oliveira Gomes - RM553135
+- Enzo Gabriel Nicolosi Croquer - RM553213
+- Inácia dos Santos Silva - RM 553401
+- Rickson.Hirata - RM553921
+- Tony Khaled Osman - RM553050
+*/
+
 INSERT INTO T_OB360_USUARIO (id_usuario, nm_usuario, ds_email, ds_senha, ds_cargo, nr_xp_total) 
 VALUES (SQ_OB360_USUARIO.NEXTVAL, 'Carlos Silva', 'carlos.silva@eurofarma.com.br', 'senha123', 'Analista de RH', 500);
 

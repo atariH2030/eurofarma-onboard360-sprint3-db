@@ -1,11 +1,19 @@
+/* Nomes e RMs:
+- Bruna Oliveira Gomes - RM553135
+- Enzo Gabriel Nicolosi Croquer - RM553213
+- Inácia dos Santos Silva - RM 553401
+- Rickson.Hirata - RM553921
+- Tony Khaled Osman - RM553050
+*/
+
 CREATE SEQUENCE SQ_OB360_USUARIO START WITH 100 INCREMENT BY 10;
 CREATE SEQUENCE SQ_OB360_CURSO START WITH 100 INCREMENT BY 10;
 CREATE SEQUENCE SQ_OB360_LICAO START WITH 100 INCREMENT BY 10;
 CREATE SEQUENCE SQ_OB360_PROGRESSO START WITH 100 INCREMENT BY 10;
 
 
--- Justificativa: Acelera a busca de usuários durante o login na aplicação.
-CREATE INDEX IDX_USUARIO_EMAIL ON T_OB360_USUARIO(ds_email);
+-- Justificativa: Acelera a busca e geração de relatórios de colaboradores agrupados por cargo.
+CREATE INDEX IDX_USUARIO_CARGO ON T_OB360_USUARIO(ds_cargo);
 
 -- Justificativa: Melhora a performance do dashboard que lista o progresso por colaborador.
 CREATE INDEX IDX_PROGRESSO_USER ON T_OB360_PROGRESSO(id_usuario);
