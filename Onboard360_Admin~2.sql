@@ -1,3 +1,11 @@
+/* Nomes e RMs:
+- Bruna Oliveira Gomes - RM553135
+- Enzo Gabriel Nicolosi Croquer - RM553213
+- Inácia dos Santos Silva - RM 553401
+- Rickson.Hirata - RM553921
+- Tony Khaled Osman - RM553050
+*/
+
 -- Relatório de Tabelas e Registros
 SELECT table_name as "Tabela", num_rows as "Total de Linhas (Aprox.)"
 FROM user_tables
